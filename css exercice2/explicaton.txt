@@ -1,0 +1,142 @@
+Bonjour ! Je vais vous aider à créer une structure de base pour reproduire un site web similaire à Docplanner en utilisant HTML et CSS. Voici un exemple de code que vous pouvez utiliser dans Visual Studio Code.
+
+### Étape 1 : Créer les fichiers nécessaires
+
+1. Ouvrez Visual Studio Code.
+2. Créez un nouveau dossier pour votre projet.
+3. À l'intérieur de ce dossier, créez deux fichiers : `index.html` et `styles.css`.
+
+### Étape 2 : Écrire le code HTML
+
+Dans le fichier `index.html`, ajoutez le code suivant :
+
+```html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docplanner Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Docplanner</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">À propos</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Trouvez un médecin près de chez vous</h2>
+            <p>Réservez des rendez-vous en ligne facilement.</p>
+            <button>Commencer</button>
+        </section>
+
+        <section class="features">
+            <div class="feature">
+                <h3>Facilité de réservation</h3>
+                <p>Réservez vos rendez-vous en quelques clics.</p>
+            </div>
+            <div class="feature">
+                <h3>Accès à des médecins qualifiés</h3>
+                <p>Consultez les avis et choisissez le meilleur médecin.</p>
+            </div>
+            <div class="feature">
+                <h3>Support 24/7</h3>
+                <p>Notre équipe est là pour vous aider à tout moment.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Docplanner Clone. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+</html>
+```
+
+### Étape 3 : Écrire le code CSS
+
+Dans le fichier `styles.css`, ajoutez le code suivant :
+
+```css
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.feature {
+    width: 30%;
+    text-align: center;
+}
+
+footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+```
+
+### Étape 4 : Visualiser votre travail
+
+1. Ouvrez le fichier `index.html` dans votre navigateur pour voir le résultat.
+2. Vous pouvez ajuster le style et le contenu selon vos besoins pour mieux reproduire le site Docplanner.
+
+### Remarques
+
+- Assurez-vous de personnaliser le contenu et le style pour qu'ils correspondent à votre vision.
+- Vous pouvez ajouter des images, des icônes, et d'autres éléments pour enrichir votre page.
+- N'hésitez pas à consulter les meilleures pratiques en HTML et CSS pour améliorer votre code.
+
+Si vous avez des questions ou besoin d'aide supplémentaire, n'hésitez pas à demander !

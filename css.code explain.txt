@@ -1,0 +1,45 @@
+css
+/* styles.css */
+
+/* Appliquer la police Roboto */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Style pour les titres */
+h1, h2, h3 {
+    color: #4A90E2; /* Couleur bleue */
+}
+
+/* Style pour les paragraphes */
+p {
+    color: #333; /* Couleur gris foncé */
+    line-height: 1.5; /* Espacement entre les lignes */
+}
+
+/* Style pour les listes */
+ul, ol {
+    margin: 10px 0;
+}
+
+/* Style pour la table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Style pour les bordures des cellules */
+td {
+    border: 1px solid #ddd; /* Bordure grise */
+}
+
+/* Style pour la barre de navigation */
+.nav {
+    display: inline; /* Affichage en ligne */
+    margin-right: 15px; /* Espacement entre les éléments */
+}

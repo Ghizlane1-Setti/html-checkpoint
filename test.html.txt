@@ -1,0 +1,40 @@
+<html>
+<body>
+    <h1> Hello HTML </h1>
+ <p> C'est quoi html? </p>
+    <ul>
+        <li> coffe </li>
+        <li> thé </li>
+        <li> lait </li>
+    </ul>
+    <h2> Hello Freind </h2>
+    
+    <p> c'est quoi css? </p>
+    <ol>
+        <li> coffe </li>
+        <li> thé </li>
+        <li> lait </li>
+    </ol>
+    <h3> Hello tous le monde </h3>
+    <p> c'est quoi javascript? </p>
+    <table border="1"> 
+    <tr>
+        <td> nom </td>
+        <td> numéro </td>
+        <td> lieu </td>
+    </tr>
+    <tr>
+        <td> jackeline </td>
+<td> 0654789633 </td>
+<td>  RABAT </td>
+    </tr>
+    <tr>
+        <td>  GHIZLANE </td>
+        <td>  0789546755 </td>
+        <td>  Casa </td>
+    </tr>
+    </table>
+</border>
+    <p> c'est quoi java? </p>
+</body>
+</html>
